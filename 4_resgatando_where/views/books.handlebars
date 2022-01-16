@@ -1,0 +1,6 @@
+<div>
+    {{#each books}}
+        <p>{{this.title}} tem {{this.pages}} páginas</p>
+        <a href="/books/{{this.id}}">Acessar</a>
+    {{/each}}
+</div>
